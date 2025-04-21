@@ -18,16 +18,16 @@
 "test": "node test.js",
 "test2": "nodemon index.js" },
     
-"homepage": "https://github.com/mihas35/Gomer",
+"homepage": "https://github.com/admin-Gomer/GOMER-MD",
 "author": {
-"name": "GataNina-Li" }, 
+"name": "admin-Gomer" }, 
     
 "repository": {
 "type": "git",
- "url": "git+https://github.com/mihas35/Gomer.git" },
+ "url": "git+https://github.com/admin-Gomer/GOMER-MD.git" },
  
 "bugs": {
-"url": "https://github.com/mihas35/Gomer/issues" },
+"url": "https://github.com/admin-Gomer/GOMER-MD/issues" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
 "@whiskeysockets/baileys": "github:elrebelde21/baileys",
