@@ -1,11 +1,11 @@
-# These are supported funding model platforms 
-github: [GataNina-Li]
-patreon: # Replace 
-open_collective: # Replace with a single Open Collective username
-ko_fi: # Replace with a single Ko-fi username
-tidelift: # Replace with a single Tidelift platform-name/package-name e.g., npm/babel
-community_bridge: # Replace with a single Community Bridge project-name e.g., cloud-foundry
-liberapay: # Replace with a single Liberapay username
-issuehunt: # Replace with a single IssueHunt username
-otechie: # Replace with a single Otechie username
+# Это поддерживаемые модели финансирования платформ
+github: [admin-Gomer]
+patreon: # Заменять
+open_collective: # Замените на одно открытое коллективное имя пользователя
+ko_fi: # Замените на одно имя пользователя Kofi
+tidelift: # Замените на единую платформу Tide lift-название платформы/название упаковки, например, npm/babel
+community_bridge: # Замените на одно название проекта Community Bridge, например, cloud-foundry
+liberapay: # Замените на одно имя пользователя Liberal pay
+issuehunt: # Замените имя пользователя для поиска по одной проблеме
+otechie: # Замените на одно имя пользователя технаря
 custom: ['https://dash.skyultraplus.com', 'https://boxmineworld.com']
