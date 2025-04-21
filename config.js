@@ -8,21 +8,10 @@ import axios from 'axios'
 import moment from 'moment-timezone'
 import { en, es, id, ar, pt, de, it } from './lib/idiomas/total-idiomas.js'
 
-// ES ➜ Agregué primero el número del Bot como prioridad
-// ES ➜ Si desea recibir reportes debe de usar los tres parámetros (Número, nombre y true)
-// EN ➜ Add the Bot number as priority first
-// EN ➜ If you want to receive reports you must use the three parameters (Number, name and true)
+
 global.owner = [
-['5214774444444', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈', true], 
-['593968263524', '𝙂𝘽 𝘼𝙨𝙞𝙨𝙩𝙚𝙣𝙘𝙞𝙖 🌻🐈', true],
-['573012482597'],
-['5218715746374'],
-['5492266613038'], 
-['595976126756'],
-['593968585383'],
-['5219999699999'],
-['5216646666666'],
-['51968382008']]
+['79940139737', '🇧 🇴 🇹', true], 
+['79520830782', '🇨 🇷 🇪 🇦 🇩 🇴 🇷', true]]
 
 global.mods = [] 
 global.prems = []
@@ -79,11 +68,11 @@ global.fetch = fetch
 global.axios = axios
 global.moment = moment	
 
-global.packname = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈'
-global.author = '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
+global.packname = ''
+global.author = '꧁☠︎︎🅼🅸🅺🅷🅰︎🅸🅻☠︎︎꧂'
 global.policyGB = 'github.com/GataNina-Li/GataBot-MD/blob/master/terms.md'
 
-// ES ➜ Está parte es para mostrar el contacto de alguien al usar #contacto
+// ES ➜ Эта часть предназначена для отображения чьего-либо контакта при использовании #контакт
 // EN ➜ This part is to display someone's contact using #contact
 global.official = [ 
 ['593968263524', 'Gata Dios 💻', 1], 
@@ -98,10 +87,10 @@ global.country = '' //agrega tú país ejemplo: 🇪🇨
 
 global.vs = '1.4.0'
 global.vsJB = '5.0 (beta)'
-global.gt = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿'
+global.gt = '𝔾𝕠𝕞𝕖𝕣'
 
-global.wm = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈 : 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
-global.igfg = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿'
+global.wm = '𝔾𝕠𝕞𝕖𝕣'
+global.igfg = '𝔾𝕠𝕞𝕖𝕣'
 global.nomorown = owner[0][0]
 
 global.htki = '*⭑•̩̩͙⊱•••• ☪*'
@@ -117,16 +106,16 @@ global.waitemot = '⌛'
 global.waitemot2 = '⏳'
 
 // redes
-global.tk = 'https://www.tiktok.com/@gata_dios'
-global.ths = 'https://www.threads.net/@gata_dios'
-global.yt = 'https://youtube.com/@gatadios'
-global.yt2 = 'https://youtu.be/Ko019wvu2Tc'
-global.ig = 'https://www.instagram.com/gata_dios'
-global.md = 'https://github.com/GataNina-Li/GataBotLite-MD'
-global.fb = 'https://www.facebook.com/groups/872989990425789'
-global.paypal = 'https://paypal.me/OficialGD'
-global.asistencia = 'https://wa.me/message/MEKOUFBEOG5ED1'
-global.tg = 'https://t.me/globalgb' // canal
+global.tk = 'https://www.tiktok.com'
+global.ths = 'https://www.threads.net'
+global.yt = 'https://youtube.com'
+global.yt2 = 'https://youtu.be/'
+global.ig = 'https://www.instagram.com/'
+global.md = 'https://github.com'
+global.fb = 'https://www.facebook.com/groups/'
+global.paypal = 'https://paypal.me/'
+global.asistencia = 'https://wa.me/'
+global.tg = 'https://t.me/' // canal
 
 // canales
 global.canal1 = "https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A"
@@ -152,18 +141,18 @@ global.nnnttt5 = 'https://chat.whatsapp.com/HOCsvLox0Ui7cwzTCeFhPP' //A.T.M.M
 
 // Imágenes locales
 global.imagen1 = fs.readFileSync('./media/menus/Menu3.jpg')
-global.imagen2 = fs.readFileSync('./media/menus/img1.jpg')
-global.imagen3 = fs.readFileSync('./media/menus/img2.jpg')
-global.imagen4 = fs.readFileSync('./media/menus/img3.jpg')
-global.imagen5 = fs.readFileSync('./media/menus/img4.jpg')
-global.imagen6 = fs.readFileSync('./media/menus/img5.jpg')
-global.imagen7 = fs.readFileSync('./media/menus/img6.jpg')
-global.imagen8 = fs.readFileSync('./media/menus/img7.jpg')
-global.imagen9 = fs.readFileSync('./media/menus/img8.jpg')
-global.imagen10 = fs.readFileSync('./media/menus/img9.jpg')
-global.imagen11 = fs.readFileSync('./media/menus/img10.jpg')
-global.imagen12 = fs.readFileSync('./media/menus/img11.jpg')
-global.imagen13 = fs.readFileSync('./media/menus/img12.jpg')
+global.imagen2 = fs.readFileSync('./media/menus/avatarka1.jpg')
+global.imagen3 = fs.readFileSync('./media/menus/avatarka2.jpg')
+global.imagen4 = fs.readFileSync('./media/menus/avatarka3.jpg')
+global.imagen5 = fs.readFileSync('./media/menus/avatarka4.jpg')
+global.imagen6 = fs.readFileSync('./media/menus/avatarka5.jpg')
+global.imagen7 = fs.readFileSync('./media/menus/avatarka6.jpg')
+global.imagen8 = fs.readFileSync('./media/menus/avatarka7.jpg')
+global.imagen9 = fs.readFileSync('./media/menus/avatarka8.jpg')
+global.imagen10 = fs.readFileSync('./media/menus/avatarka9.jpg')
+global.imagen11 = fs.readFileSync('./media/menus/avatarka10.jpg')
+global.imagen12 = fs.readFileSync('./media/menus/avatarka11.jpg')
+global.imagen13 = fs.readFileSync('./media/menus/avatarka12.jpg')
 
 // Imágenes en la nube
 global.img = 'https://i.imgur.com/AwlL9kc.jpeg'
