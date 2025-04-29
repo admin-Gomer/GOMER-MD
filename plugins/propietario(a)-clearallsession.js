@@ -56,6 +56,6 @@ const handler = async (m, { conn, usedPrefix }) => {
   await conn.sendMessage(m.chat, {text: `${lenguajeGB['smsAvisoRG']()}🐈 ЗДРАВСТВУЙТЕ, ЭТО УЖЕ РАБОТАЕТ\nЕСЛИ БОТ НЕ РЕАГИРУЕТ НА ВАШИ КОМАНДЫ, ПОЖАЛУЙСТА, СДЕЛАЙТЕ НЕБОЛЬШОЙ СПАМ\n\n*ПРИМЕР:*\n${usedPrefix}с\n${usedPrefix}с\n${usedPrefix}с`}, { quoted: m })}
 handler.help = ['del_reg_in_session_owner'];
 handler.tags = ['owner'];
-handler.command = /^(del_reg_in_session_owner|dsowner|clearallsession|очистить)$/i;
+handler.command = /^(del_reg_in_session_owner|dsowner|clearallsession|чистить)$/i;
 handler.owner = true
 export default handler;
